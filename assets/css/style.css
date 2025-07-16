@@ -15,7 +15,7 @@ body {
    
 }
 
-/*header color*/
+/*header */
 header {
     background-color: #ffffff;
 padding: 0 1rem;
@@ -23,6 +23,9 @@ position: fixed;
 z-index: 99;
 width: 100%;
 box-shadow: #3a3a3a 0px 2px 2px;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
 }
 header a { text-decoration: none; color: inherit}
 h1 {
@@ -46,8 +49,22 @@ width: 100%;
 left: 0;
 padding: 0 1rem;
 box-shadow: #3a3a3a 0px 2px 2px;
-display: none;}
+display: none;
+top: 100%;}
 
+/*nave toggle */
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+   
+    font-size: 2rem;
+    
+}
 /* main content */
 main {background-color: lightblue;
     /* main content to take up any remaining space */ 
