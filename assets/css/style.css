@@ -68,7 +68,8 @@ top: 100%;}
 /* main content */
 main {background-color: lightblue;
     /* main content to take up any remaining space */ 
-flex: 1 0 auto;}
+flex: 1 0 auto;
+margin-top: 47px;}
 
 /* footer color */
 footer {background-color: orange;}
