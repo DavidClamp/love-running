@@ -71,9 +71,20 @@ main {background-color: lightblue;
 flex: 1 0 auto;
 margin-top: 47px;}
 
-/* footer color */
-footer {background-color: orange;}
+/* align socials footer */
+#social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px 0;
+    list-style-type: none;
+}
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 /* media query tablets and larger 768px and up */
 @media screen and (min-width: 768px) {
 
