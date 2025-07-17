@@ -65,6 +65,8 @@ top: 100%;}
     font-size: 2rem;
     
 }
+
+
 /* main content */
 main {background-color: lightblue;
     /* main content to take up any remaining space */ 
@@ -112,6 +114,7 @@ margin-top: 47px;}
     line-height: 75px;
     margin: 0 0.5rem;
 }
+
 main {margin-top: 79px;}
 /* larger than 992 px devices */
 
